@@ -1,11 +1,11 @@
 # Sudoku Solver dengan Brute Force
 
-Ini adalah program sederhana untuk menyelesaikan teka-teki Sudoku menggunakan algoritma brute force (backtracking) yang diimplementasikan dengan Python. Program ini juga menampilkan animasi visual di terminal untuk setiap langkah pemecahan.
+Program sederhana untuk menyelesaikan teka-teki Sudoku menggunakan algoritma brute force (backtracking) yang diimplementasikan dengan Python.
 
 ## Cara Kerja Program
 
-- **Brute Force Backtracking**: Program mencoba menempatkan angka 1-9 di setiap kotak kosong dan memeriksa apakah penempatan tersebut valid sesuai aturan Sudoku. Jika menemui konflik, program akan mundur (backtrack) dan mencoba angka lain.
-- **Animasi**: Setelah setiap angka ditempatkan, program akan menampilkan papan Sudoku yang diperbarui dengan jeda waktu pendek untuk memberikan efek animasi.
+- **Brute Force Backtracking**: Program akan menempatkan angka 1-9 di setiap kotak kosong dan memeriksa apakah penempatan tersebut valid sesuai aturan Sudoku. Jika menemui konflik, program akan mundur (backtrack) dan mencoba angka lain.
+- **Animasi**: Setelah setiap angka ditempatkan, program akan menampilkan papan Sudoku yang diperbarui dengan jeda waktu pendek.
 
 ## Fitur
 
@@ -21,14 +21,14 @@ Pastikan Python sudah terinstall di komputer Anda. Anda bisa mengeceknya dengan 
 python --version
 ```
 
-Jika Python belum terinstal, silakan unduh dan instal dari [situs resmi Python](https://www.python.org/).
+Jika Python belum terinstal, silakan unduh dan instal dari [situs Python](https://www.python.org/).
 
 ## Cara Menggunakan
 
 1. **Clone repositori**:
 
    ```bash
-   git clone https://github.com/username/sudoforce.git
+   git clone https://github.com/katsurameen/sudoforce.git
    ```
 
 2. **Masuk ke direktori proyek**:
@@ -57,7 +57,7 @@ Jika Python belum terinstal, silakan unduh dan instal dari [situs resmi Python](
 
 ## Contoh Puzzle
 
-Berikut adalah contoh puzzle yang digunakan dalam kode:
+Contoh puzzle yang digunakan dalam kode:
 
 ```python
 sudoku_board = [
@@ -73,7 +73,7 @@ sudoku_board = [
 ]
 ```
 
-Puzzle ini akan dipecahkan dan ditampilkan di terminal dengan animasi prosesnya.
+Puzzle ini akan dipecahkan dan ditampilkan di terminal.
 
 ## Penyesuaian
 
@@ -90,5 +90,5 @@ Jika Anda ingin berkontribusi untuk memperbaiki kode atau menambah fitur baru, s
 
 ## Lisensi
 
--
+- MIT
 
